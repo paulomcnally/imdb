@@ -1,0 +1,28 @@
+{
+    "name": "imdb",
+    "description": "IMDB NodeJS API",
+    "version": "0.0.1",
+    "author": "Paulo McNally <paulomcnally@gmail.com>",
+    "keywords": [
+        "imdb",
+        "movies"
+    ],
+    "dependencies": {
+        "async": "cinemovil/async",
+        "cheerio": "cinemovil/cheerio",
+        "request": "cinemovil/request",
+        "string": "cinemovil/string.js"
+    },
+    "directories": {
+        "lib": "./lib/imdb"
+    },
+    "main": "./index.js",
+    "bugs": {
+        "url": "https://github.com/cinemovil/imdb/issues/new",
+        "email": "paulomcnally@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/cinemovil/imdb.git"
+    }
+}
